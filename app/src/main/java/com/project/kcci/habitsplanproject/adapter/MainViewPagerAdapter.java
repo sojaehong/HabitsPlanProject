@@ -34,7 +34,7 @@ public class MainViewPagerAdapter extends FragmentPagerAdapter{
     public CharSequence getPageTitle(int position) {
 
         if(position == 0)
-            return "공유된 습관";
+            return "습관 공유 게시판";
         if(position == 1)
             return "나의 습관";
 
